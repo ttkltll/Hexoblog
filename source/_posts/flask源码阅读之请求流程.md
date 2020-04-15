@@ -2,6 +2,7 @@
 title: flask源码阅读之请求流程
 date: 2020-04-04 10:56:15
 tags: flask 
+Categories: 阅读flask源码
 ---
 
 > 我们先大致的走下flask处理请求的流程，我用的是flask0.1这个版本的源码。之所以用这个，是为了去除不必要枝叶，快速把握flask的主干。后面再迭代，加细节。
