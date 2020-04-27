@@ -1,8 +1,8 @@
 ---
 title: '阅读flask源码3：仿写Local,LocalStack'
 date: 2020-04-16 09:46:06
-Tags:flask
-Categories:
+Tags: flask
+categories: 阅读flask源码
 ---
 
 我们上篇分析了上下文压入栈，出栈的大致流程，现在我们要问，flask是怎么实现的呢？准备来说，Local是怎么管理不同请求对象的，LocalProxy是怎么代理的。因为flask源码太复杂，今天我们自己一步一步实现类似于Local,LocalProxy的代码。通过自己实现，我们学会用代理模式，学会python的魔法方法__setattr__,__getattr__。

@@ -2,7 +2,7 @@
 title: '阅读flask源码2：Local,LocalStack'
 date: 2020-04-09 07:18:02
 tags: flask
-Categories: 阅读flask源码
+categories: 阅读flask源码
 ---
 
 我们还是以flask0.1的代码来阅读,先提出几个常见的问题：
